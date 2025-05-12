@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🎉 JavaScript Playground 🎮</h1>
+  </header>
+
+  <section class="events">
+    <button id="changeBtn">Click Me!</button>
+    <div id="hoverBox">Hover over me!</div>
+    <p>Type something: <input type="text" id="keyInput" /></p>
+    <div id="secretBox">Double-click or long press me!</div>
+  </section>
+
+  <section class="interactive">
+    <button id="colorBtn">Change My Color</button>
+    <div class="tabs">
+      <button class="tab" data-tab="1">Tab 1</button>
+      <button class="tab" data-tab="2">Tab 2</button>
+    </div>
+    <div id="tab-content">Click a tab to change this content</div>
+  </section>
+
+  <section class="gallery">
+    <img id="slideshow" src="https://via.placeholder.com/300x200" alt="Gallery">
+    <button id="nextImage">Next Image</button>
+  </section>
+
+  <section class="form-section">
+    <h2>Sign Up</h2>
+    <form id="signupForm" novalidate>
+      <label>Email: <input type="email" id="email" required /></label><br>
+      <label>Password: <input type="password" id="password" required /></label><br>
+      <button type="submit">Submit</button>
+      <p id="formFeedback"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
